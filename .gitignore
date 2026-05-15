@@ -1,0 +1,20 @@
+# 依赖包目录（必忽略）
+node_modules/
+
+# 环境变量密钥（必忽略，不能上传 API Key）
+.env
+.env.local
+
+# 缓存文件
+cache.json
+*.log
+agent_logs.txt
+
+# 系统垃圾文件
+.DS_Store
+Thumbs.db
+
+# 编辑器配置
+.idea/
+.vscode/
+*.swp
